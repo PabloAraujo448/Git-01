@@ -3,10 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula GitHub</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-    <h1>Aula de Git</h1>
-    <h2>Colocando Sub Titulo</h2>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img class="img-logo" src="Assets/img/CPS.png" alt="Logo-etec">
+      </div>
+      <div>
+        <h1>Aula Prática — Conta de Estudante @etec.sp.gov.br(ETEC) no GitHub</h1>
+        <p class="lead">Guia passo a passo com ilustrações didáticas para criar conta, solicitar o Student Pack, subir
+          projetos e publicar com GitHub Pages.</p>
+      </div>
+    </header>
+ 
+    <div class="grid">
+      <main class="card">
+        <section>
+          <h2>Objetivo</h2>
+          <p>Ao final desta aula o estudante saberá criar uma conta no GitHub usando o e‑mail institucional da ETEC,
+            solicitar o benefício de estudante, fazer upload de projetos de site e publicar usando o GitHub Pages.</p>
+        </section>
+ 
+        <section style="margin-top:12px">
+          <h2>Sumário rápido</h2>
+          <ul class="toc">
+            <li>1 — Criar conta no GitHub</li>
+            <li>2 — Solicitar GitHub Student Developer Pack</li>
+            <li>3 — Criar repositório</li>
+            <li>4 — Fazer upload dos arquivos</li>
+            <li>5 — Publicar com GitHub Pages</li>
+          </ul>
+        </section>
+ 
+        <section style="margin-top:16px">
+          <h2>Passo a passo ilustrado</h2>
+          <div class="step-item">
+            <div class="text">
+              <h3>1. Criar conta no GitHub</h3>
+              <ol>
+                <li>Acesse <a href="https://github.com" target="_blank">github.com</a> e clique em <strong>Sign
+                    up</strong>.</li>
+                <li>Preencha: <strong>Email: use seu e-mail institucional da ETEC</strong> (ex.:
+                  <code>nome.sobrenome@etec.sp.gov.br</code>),<br>
+                  <strong>Senha:</strong> crie uma senha segura. <br>
+                <strong>Username:</strong> Ex Aluno1234567</li>
+                  Clique em Sign up (no canto superior direito).
+                <li>Confirme o e‑mail clicando no link enviado.</li>
+              </ol>
+            </div>
+          </div>
+ 
+          <div class="screenshot" aria-hidden="true">
+            <div style="text-align:center">
+         
+ 
+ 
+          <!-- imagem para ilustrar o passo-a-passo -->
+ 
+         
+              <img class="fit-picture" src="Assets/img/Passo1.jpg" alt="Grapefruit slice atop a pile of other slices" />
+              <div class="caption">Exemplo de tela: formulário de criação de conta.</div>
+            </div>
+          </div>
+ 
+          <div style="height:10px"></div>
+ 
+          <div class="step-item">
+            <div class="text">
+              <h3>2. Solicitar o GitHub conta de estudante</h3>
+              <ol>
+                <li>Acesse <a href="https://education.github.com/pack" target="_blank">education.github.com/pack</a> e
+                  clique em <strong>" Your benefits application "no canto superior direito</strong>.</li>
+                <li>Faça login com sua conta GitHub e escolha <strong>Student</strong>.</li>
+                <li>Preencha o formulário e anexe comprovante de matrícula ou carteirinha.</li>
+                <li>Aguarde a aprovação (normalmente até 3 dias úteis).</li>
+              </ol>
+              <div class="note">Dica do professor: peça aos alunos que guardem uma foto ou PDF da carteirinha para
+                anexar rapidamente.</div>
+            </div>
+          </div>
+ 
+          <div class="screenshot" aria-hidden="true">
+            <div style="text-align:center">
+       
+ 
+ 
+          <!-- imagem para ilustrar o passo-a-passo -->
+                1 - Passo <br>
+                <img class="fit-picture" src="Assets/img/1benefits.jpg" alt="Grapefruit slice atop a pile of other slices" />
+                <br> <br>
+                2 - Passo <br>
+                <img class="fit-picture" src="Assets/img/2singup.jpg" alt="Grapefruit slice atop a pile of other slices" />
+                <br> <br>
+                3 - Passo <br>
+                <img class="fit-picture" src="Assets/img/3formulario.jpg" alt="Grapefruit slice atop a pile of other slices" />
+              <div class="caption">Ilustração: página do GitHub Education (formulário de solicitação).</div>
+            </div>
+          </div>
+ 
+          <div class="step-item">
+            <div class="text">
+              <h3>3. Criar repositório para o projeto</h3>
+              <ol>
+                <li>No seu Perfil do GitHup clique em Repositorio -><span class="kbd">+</span> → <strong>New repository</strong>.</li>
+                <li>Nomeie o repositório (ex.: <code>meu-site-etec</code>), marque <strong>Public</strong> e adicione um
+                  <code>README</code>.</li>
+                <li>Clique em <strong>Create repository</strong>.</li>
+              </ol>
+            </div>
+          </div>
+ 
+          <div class="screenshot" aria-hidden="true">
+            <div style="text-align:center">
+         
+ 
+ 
+          <!-- imagem para ilustrar o passo-a-passo -->
+                1 Passo <br>
+            <img class="fit-picture" src="Assets/img/1repositorio.jpg" alt="Grapefruit slice atop a pile of other slices" />  
+            <br> <br>
+                2 Passo <br>
+            <img class="fit-picture" src="Assets/img/2nomeandorepositorio.jpg" alt="Grapefruit slice atop a pile of other slices" />
+            <br> <br>
+              <div class="caption">Exemplo: formulário de criação de repositório (nome, visibilidade, README).</div>
+            </div>
+          </div>
+ 
+          <div class="step-item">
+            <div class="text">
+              <h3>4. Fazer upload dos arquivos do site</h3>
+              <ol>
+                <li>Dentro do repositório clique em <strong>Add file → Upload files</strong>.</li>
+                <li>Arraste e solte <code>index.html</code>, <code>style.css</code>, imagens e pastas.</li>
+                <li>Clique em <strong>Commit changes</strong>.</li>
+              </ol>
+            </div>
+          </div>
+ 
+          <div class="screenshot" aria-hidden="true">
+            <div style="text-align:center">
+           
+ 
+ 
+          <!-- imagem para ilustrar o passo-a-passo -->
+ 
+         
+              <div class="caption">Ilustração: área de upload de arquivos dentro do repositório.</div>
+            </div>
+          </div>
+ 
+          <div class="step-item">
+            <div class="text">
+              <h3>5. Publicar com GitHub Pages</h3>
+              <ol>
+                <li>Vá em <strong>Settings → Pages</strong> no repositório.</li>
+                <li>Em <strong>Source</strong>, escolha <code>Deploy from a branch</code>, selecione <code>main</code> e
+                  clique em <strong>Save</strong>.</li>
+                <li>Em alguns minutos seu site estará disponível em
+                  <code>https://seuusuario.github.io/meu-site-etec</code>.</li>
+              </ol>
+            </div>
+          </div>
+ 
+          <div class="screenshot" aria-hidden="true">
+            <div style="text-align:center">
+ 
+ 
+          <!-- imagem para ilustrar o passo-a-passo -->
+ 
+ 
+              <div class="caption">Exemplo: configuração do GitHub Pages (seletor de branch e pasta).</div>
+            </div>
+          </div>
+ 
+        </section>
+ 
+        <section style="margin-top:18px">
+          <h2>Dicas pedagógicas & checklist para o professor</h2>
+          <ul>
+            <li>Peça que cada aluno crie um repositório por projeto — facilita avaliação.</li>
+            <li>Verifique se o <code>index.html</code> está na raiz do repositório para o Pages funcionar.</li>
+            <li>Mostre como usar o <strong>README.md</strong> para descrever o projeto.</li>
+            <li>Exercício rápido: publicar uma página com apenas um arquivo <code>index.html</code>.</li>
+          </ul>
+        </section>
+ 
+      </main>
+ 
+      <aside>
+        <div class="card">
+          <h3>Recursos rápidos</h3>
+          <div class="icon-row">
+            <div class="icon">🔗</div>
+            <div class="icon">📄</div>
+            <div class="icon">🎓</div>
+          </div>
+          <p class="lead" style="margin:6px 0 0">Links úteis</p>
+          <ul>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://education.github.com/pack" target="_blank">GitHub Education</a></li>
+            <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+          </ul>
+ 
+          <div style="margin-top:10px">
+            <p class="lead" style="margin:6px 0 6px">Configuração mínima</p>
+            <div class="highlight">Arquivos: <code>index.html</code>, <code>style.css</code>, imagens</div>
+          </div>
+ 
+          <a class="download" href="#download">Baixar versão PDF</a>
+ 
+          <div style="margin-top:12px">
+            <p class="lead" style="margin:6px 0 6px">Quantidade de imagens</p>
+            <div>Versão: <strong>1.0</strong> — 9 ilustrações (ícones + telas simuladas)</div>
+          </div>
+        </div>
+ 
+        <div class="card" style="margin-top:12px">
+          <h3>Observações</h3>
+          <p class="note">Capturar  telas reais do GitHub, para subistituiras pseudo-ilustrações simuladas nesse exemplo.
+             Para isso, segue o passo a passo dessa atividade para demostrar em telas todo procedimento.</p>
+        </div>
+      </aside>
+    </div>
+ 
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>Criado para ETEC — Material didático prático</div>
+        <div>© 2024 Aula de PW1</div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
